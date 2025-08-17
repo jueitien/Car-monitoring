@@ -1,0 +1,221 @@
+#navi{
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    position: fixed;
+    right: 1%;
+    background-color: black;
+}
+#selection{
+    float: right;
+    height: 80%;
+    width: 70%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: fantasy;
+    color: azure;  
+    border: 3px solid orange;
+    border-radius: 10px;
+}
+#selection>div>a{
+    text-decoration: none;
+    color: white;
+}
+#btt1>a:hover{
+    color: orange;
+    cursor: pointer;
+}
+#btt2>a:hover{
+    color: orange;
+    cursor: pointer;
+}
+#btt3>a:hover{
+    color: orange;
+    cursor: pointer;
+}
+#btt4>a:hover{
+    color: orange;
+    cursor: pointer;
+}
+#profileContainer{
+    visibility: hidden;
+    height: 230px;
+    width:300px;
+    position: fixed;
+    top:120px;
+    left: 445px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 3px solid orange;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+
+#Picture{
+    border: 2px solid orange;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+#UserInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#UserInfo>div{
+    color: aliceblue;
+}
+#profileContainer>div>button{
+    cursor: pointer;
+}
+
+/*Add admin*/
+#Title{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border-bottom: 3px solid orange;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#Title>div{
+    font-size: 20px;
+}
+.AdminContainer{
+    width: 80%;
+    height: 60px;
+    margin: auto;
+    color: white;
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.AdminContainer>button{
+    border: none;
+    height: 25px;
+    background: red;
+    color: white;
+    border: 2px solid white;
+}
+.AdminContainer>button:hover{
+    cursor: pointer;
+    height: 27px;
+}
+
+/*appoinment_conatainner*/
+#OuterBox3{
+    width: 1000px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+}
+#appoinment_conatainner{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#appoinment_conatainner>div{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+
+    color: aliceblue;
+
+}
+#appoinment_conatainner>div>div{
+    margin:5px auto 5px auto;
+
+}
+.bar{
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/*Car Maintenance Process*/
+#CarMaintenanceTitle{
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    height: fit-content;
+}
+#OuterBox2{
+    margin: auto;
+    padding: 10px;
+    width: 60%;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.UserCarStatus>div{
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+    justify-content: space-between;
+    align-items: center;
+}
+.UserCarStatus>div>div:nth-child(1){
+    height: 10px; width: 10px;border-radius: 50%; background-color: red;
+}
+.UserCarStatus>div>div{
+    color: white;
+}
+.buttons{
+    width: 50%;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center;
+}
+.buttons>button{
+    width: 25%;
+    padding: 0;
+    border: none;
+    background: none;
+    color: red;
+}
+/*Review Customer*/
+.UserBox{
+    padding: 10px 20px 10px 20px;
+    width: 83%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid white;
+    color: orange;
+}
+
+.UserProfile{
+    display: flex;
+    flex-direction: column;
+}
+/*Review Customer 2*/
+.ChatBox{
+    height: fit-content;
+    width: 90%;
+    border: 3px solid orange;
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+}

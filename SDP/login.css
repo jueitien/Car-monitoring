@@ -1,0 +1,16 @@
+#logo{
+    height: fit-content;
+    width: fit-content;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+}
+#logincontainer{
+    height: 450px;
+    width: 700px;
+    margin: 100px auto 0 auto;
+    border: 3px solid orange;
+    border-radius: 5px;
+
+}

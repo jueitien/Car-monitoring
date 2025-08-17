@@ -1,0 +1,225 @@
+#navi{
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    position: fixed;
+    right: 1%;
+    background-color: black;
+}
+#selection{
+    float: right;
+    height: 100%;
+    width: 70%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: fantasy;
+    color: azure;  
+    border: 3px solid orange;
+    border-radius: 10px;
+}
+#selection>div>a{
+    text-decoration: none;
+    color: white;
+}
+#btt1>a:hover{
+    color: orange;
+    cursor: pointer;
+}
+#btt2>a:hover{
+    color: orange;
+    cursor: pointer;
+}
+#btt3>a:hover{
+    color: orange;
+    cursor: pointer;
+}
+#btt4>a:hover{
+    color: orange;
+    cursor: pointer;
+}
+#profileContainer{
+    visibility: hidden;
+    height: 230px;
+    width:300px;
+    position: fixed;
+    top:120px;
+    left: 445px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 3px solid orange;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+
+#Picture{
+    border: 2px solid orange;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+#UserInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#UserInfo>div{
+    color: aliceblue;
+}
+#profileContainer>div>button{
+    cursor: pointer;
+}
+
+/*Appointment*/
+#ProblemSelection{
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+#ProblemSelection>button{
+    width: 25%;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+}
+#ProblemSelection>button:hover{
+    background-color: rgb(22, 22, 22);
+    cursor: pointer;
+    border: 3px solid white;
+}
+#daynavi{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#daynavi>button{
+    width: 14%;
+    padding: 0;
+    border: none;
+    background: none;
+    color: white;
+}
+#daynavi>button:hover{
+    background-color: rgb(22, 22, 22);
+    cursor: pointer;
+    border-bottom: 3px solid white;
+}
+#timeBox{
+    margin:auto;
+    height: 200px;
+    width: 67%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+#timeBox>button{
+    border: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+}
+#timeBox>button:hover{
+    background-color: rgb(22, 22, 22);
+    cursor: pointer;
+}
+
+
+/*Car Status*/
+#statusBar{
+    width: 80%;
+    height: 100px;
+    background-color: rgb(70, 66, 66);
+    border-radius: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid orange;
+}
+#statusBar>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#statusBar>div>a{
+    color: white;
+    font-size: 20px;
+}
+
+
+/*Service*/
+#c{
+    float: left;
+    margin-left: 50px;
+    margin-top:70px;
+    font-size: 20px;
+    font-family: fantasy;
+    color: azure;  
+}
+#c2{
+    margin-top: 50px;
+    float: right;
+    height: 200px;
+    width:260px;
+    font-size: 20px;
+    font-family: fantasy;
+    color: azure; 
+
+}
+#Text{
+    height: 100%;
+    width: 80%;
+    border: 3px solid orange;
+    border-radius: 10px;
+}
+
+#Text1{
+    padding: 20px 0px 20px 0px;
+    height: 100%;
+    width: 80%;
+    display:flex;
+    border: 3px solid orange;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Title1{
+    font-size: 20px;
+    font-family: fantasy;
+    color: azure; 
+}
+.form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.FAQContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 130px;
+    width: 50%;
+    border: 3px solid orange;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.FAQContainer > div{
+    color: white;
+    height: 100%;
+    width: 80%;
+    font-size: 20px;
+    padding: 10px;
+}

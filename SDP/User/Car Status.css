@@ -1,0 +1,35 @@
+
+#navi{
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+}
+#selection{
+    float: right;
+    height: 100%;
+    width: 70%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: fantasy;
+    color: azure;  
+    border: 3px solid orange;
+    border-radius: 10px;
+}
+#selection>div>a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#btt1>a:hover{
+    color: orange;
+    cursor: pointer;
+}
+#btt2>a:hover{
+    color: orange;
+    cursor: pointer;
+}
+#btt3>a:hover{
+    color: orange;
+    cursor: pointer;
+}
